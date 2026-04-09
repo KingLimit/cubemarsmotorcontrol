@@ -8,7 +8,7 @@ The control is a simple PD loop with some filtering on velocity and reduced stif
 - STM32 Nucleo-F446RE  
 - Waveshare CAN Bus Shield  
 - CubeMars AK-series motor
-- - AK70-10 KV100 Tested
+  - AK70-10 KV100 Tested
 
 ## Notes
 CAN communication is handled through the Waveshare shield, with PB8/PB9 used for RX/TX. Basic filtering is applied to accept all messages.
