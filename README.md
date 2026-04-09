@@ -9,6 +9,10 @@ The control is a simple PD loop with some filtering on velocity and reduced stif
 - Waveshare CAN Bus Shield  
 - CubeMars AK-series motor
   - AK70-10 KV100 Tested
+ 
+## Software
+- STM32CubeMX used to create and edit initial .ioc file and generate project
+- STM32CubeIDE used to edit main.c and flash to board
 
 ## Notes
 CAN communication is handled through the Waveshare shield, with PB8/PB9 used for RX/TX. Basic filtering is applied to accept all messages.
