@@ -9,10 +9,14 @@ The control is velocity-based from the controller, with filtering, position rate
 - Waveshare CAN Bus Shield  
 - CubeMars AK-series motor  
   - AK70-10 KV100 Tested
+  - AK80-64 KV80 Tested
  
 ## Software
 - STM32CubeMX used to create and edit initial .ioc file and generate project  
-- STM32CubeIDE used to edit main.c and flash to board  
+- STM32CubeIDE used to edit main.c and flash to board
+- Python script used for Xbox controller input and UART communication  
+  - pygame for controller input  
+  - pyserial for serial communication to STM32
 
 ## Controller (Xbox)
 - Right Trigger → Clockwise motion (trigger-scaled velocity)  
